@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box; 
+    /* font-family:monospace; */
+
 }
+
 html,body {
+    
     height: 100%;
     width: 100%;
     background-color: #212121;
@@ -17,8 +21,9 @@ html,body {
     align-items: center;
     overflow: hidden;
     max-width: 100%;
-    align-items: flex-start; /* Keeps everything aligned to the top */
-    position: relative; /* Keeps the content within the box */
+    align-items: flex-start; 
+    position: relative; 
+    padding-top: 60px;
 }
 #star{
     text-align: center ;
@@ -35,7 +40,7 @@ html,body {
     max-width: fit-content;
    border: 30px solid whitesmoke;
    border-radius: 15px;
-   margin-top: 20px;
+   margin: 20px;
    font-family: 'Press Start 2P', cursive;
    
    
@@ -127,13 +132,10 @@ button:active {
     background: linear-gradient(#ff6a00, #ee0979);
     background-clip: text;
     -webkit-text-fill-color: transparent; 
-     /* for non-webkit browsers (optional) */
-    /* color: transparent; */
-    /* height: 90px;
-    width: 100% ; */
-    border: solid red 2px;
-    margin-top: 12px;
-    padding:10px;
+   
+    /* border: solid red 2px; */
+    padding-top: 20px;
+    /* padding:10px; */
 }
 
 
@@ -148,7 +150,7 @@ button:active {
         flex-direction: column;
         padding: 10px;
         align-items: center;
-        align-items: flex-start; /* Keeps everything aligned to the top */
+        align-items: flex-start; 
         position: relative; 
     }
 
@@ -199,7 +201,7 @@ button:active {
         padding: 10px;
         height: 25%;
         font-family: 'Press Start 2P', cursive;
-        font-size: 24px;
+        font-size: 34px;
         margin-top: 25px;
     }
     #Label{
@@ -218,18 +220,20 @@ button:active {
 
 }
 
-/* Additional styles for medium screens (tablets, for example) */
+/* --------------------------------Responsive for Tablets----------------------------------------------- */
 @media (min-width: 601px) and (max-width: 800px) {
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box; 
     }
+    
     .box {
         padding: 20px;
         align-items: flex-start;
         position: relative;
     }
+
     .main {
         width: fit-content;
         margin-top: 20px;
@@ -261,6 +265,7 @@ button:active {
         font-size: 15px;
         font-family: 'Press Start 2P', cursive;
     }
+
     #heading {
         margin-top: 15px;
         font-size: 20px;
