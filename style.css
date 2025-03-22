@@ -7,11 +7,11 @@
 }
 @font-face {
     font-family: myFont1;
-    src: url("../game/font/Mabook.ttf");
+    src: url("../game/Mabook.ttf");
 }
 @font-face{
     font-family: myFont2;
-    src: url("../game/font/Pokemon\ Solid.ttf");
+    src: url("../game/Pokemon\ Solid.ttf");
 }
 html,body {
     height: 100%;
