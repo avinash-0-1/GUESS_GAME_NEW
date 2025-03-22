@@ -32,7 +32,7 @@ html,body {
     flex-direction: column;
     background-color: whitesmoke;
     height: fit-content;
-    width: fit-content;
+    max-width: fit-content;
    border: 30px solid whitesmoke;
    border-radius: 15px;
    margin-top: 20px;
