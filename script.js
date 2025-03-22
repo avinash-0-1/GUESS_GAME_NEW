@@ -83,10 +83,10 @@ function checkGuess(guess){
     
     if(guess === randomNum){
         if(count===1){
-            displaymsg(`<>YOU WIN IN ${count} ATTEMPT<>`);
+            displaymsg(`*YOU WIN IN ${count} ATTEMPT*`);
         }
         else{
-            displaymsg(`<>YOU WIN IN ${count} ATTEMPTS<>`);
+            displaymsg(`*YOU WIN IN ${count} ATTEMPTS*`);
         }
         
         win.play();
@@ -109,7 +109,7 @@ function checkGuess(guess){
 }
 
 function displaymsg(msg){
-    lowHigh.innerHTML = `<h1><center>${msg}</center></h1>`;
+    lowHigh.innerHTML = `<h1 id="lowHigh"><center>${msg}</center></h1>`;
 }
 
 
@@ -152,7 +152,7 @@ function responsive2(){
    
     setInterval(()=>{
         if(colorchange === 1){
-            document.body.style.backgroundColor = randomColor();
+            document.querySelector('.main').style.color = randomColor();
             document.querySelector('.lowHigh').style.color = randomColor();
          }
     },200);   
