@@ -211,7 +211,7 @@ button:active {
     }
 }
 
-/* Additional styles for medium screens (tablets, for example) */
+/* ---------------------------Additional styles for medium screens (tablets)--------------------------------------------------------------------------------------- */
 @media (min-width: 601px) and (max-width: 800px) {
     *{
         margin: 0;
@@ -268,44 +268,4 @@ button:active {
         font-size: 14px;
     }
 }
-/* @media (max-width: 345px) and (max-height: 600px) {
 
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box; 
-    }
-    
-    .box {
-        padding: 20px;
-        align-items: flex-start;
-        position: relative;
-    }
-    .main {
-        width: 100%;
-        margin-top: 20px;
-
-    }
-    #userInput {
-        font-size: 22px;
-    }
-
-    button {
-        width: 80%;
-        font-size: 18px;
-    }
-
-    #but {
-        width: 80%;
-        font-size: 20px;
-    }
-
-    .heading > h1 {
-        font-size: 28px;
-        height: 15%;
-    }
-
-    .heading > p {
-        font-size: 18px;
-    }
-} */
