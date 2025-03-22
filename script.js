@@ -152,7 +152,7 @@ function responsive2(){
    
     setInterval(()=>{
         if(colorchange === 1){
-            document.querySelector('.main').style.color = randomColor();
+            document.body.style.backgroundColor = randomColor();
             document.querySelector('.lowHigh').style.color = randomColor();
          }
     },200);   
