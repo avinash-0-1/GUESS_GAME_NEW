@@ -162,7 +162,7 @@ button:active {
     #userInput {
         font-size: 18px;
         height: 45px;
-        width: 40%;
+        width: 75%;
         margin-bottom: 15px;
     }
     .resultPara{
@@ -195,6 +195,7 @@ button:active {
     }
 
     #heading {
+        border:solid black 0px;
         padding: 10px;
         height: 25%;
         font-family: 'Press Start 2P', cursive;
