@@ -1,0 +1,28 @@
+@media (width <= 1280px) and (height <= 800px){
+    .heading {
+        height: 100px ;
+    }
+    .main {
+        margin-top: 20px;
+        height: fit-content;
+        width: fit-content;
+    }
+}
+
+@media (width <= 360px) and (height <= 660px){
+    .h{
+        font-size: 10px;
+        color: red;
+    }
+
+    .heading {
+        height: 170px ;
+    }
+
+    .main {
+        margin-top: 2vh;
+        height: fit-content;
+        width: fit-content;
+        border: 1px;
+    }
+}
